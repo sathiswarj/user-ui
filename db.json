@@ -1,16 +1,17 @@
 {
   "users": [
     {
-      "id": "c9d0",
-      "name": "        headers: { 'Content-Type': 'application/json' },",
-      "code": "        headers: { 'Content-Type': 'application/json' },",
+      "name": "Name ",
+      "code": "Name ",
       "countries": [
-        "UK",
+        "USA",
+        "Canada",
         "Germany",
+        "UK",
         "India",
-        "France",
-        "Australia"
-      ]
+        "Japan"
+      ],
+      "id": "VX5x9oI"
     }
   ]
 }
