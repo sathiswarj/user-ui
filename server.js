@@ -7,7 +7,7 @@ const app = express();
 
 app.use(cors());
 
- const router = jsonServer.router('db.json');
+const router = jsonServer.router('db.json');
 const middlewares = jsonServer.defaults();
 
  app.use('/api', middlewares, router);
