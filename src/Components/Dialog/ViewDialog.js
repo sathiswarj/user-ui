@@ -1,7 +1,7 @@
 import React, {useState,useEffect} from 'react'
 import { X,Edit } from 'lucide-react';
 import UserDialog from './Dialog';
-
+import { API_ENDPOINT } from '../../data/ApiEndPoint';
 const ViewDialog = ({ isOpen, onClose, selectedUser, onUpdate }) => {
   const [dialogOpen, setDialogOpen] =  useState(false);
   const [dialogMode, setDialogMode] = useState('view');
@@ -25,7 +25,7 @@ const ViewDialog = ({ isOpen, onClose, selectedUser, onUpdate }) => {
     setDialogOpen(false);
 
     try {
-      const response = await fetch(`http://localhost:5000/users/${currentUser.id}`, {
+      const response = await fetch(`${API_ENDPOINT}/users/${currentUser.id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(updatedUser),
