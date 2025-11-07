@@ -12,6 +12,17 @@
         "Japan"
       ],
       "id": "VX5x9oI"
+    },
+    {
+      "name": "/api",
+      "code": "/api",
+      "countries": [
+        "USA",
+        "Canada",
+        "Germany",
+        "UK"
+      ],
+      "id": "beJ8Ll_"
     }
   ]
 }
