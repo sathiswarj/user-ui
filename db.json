@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "c9d0",
+      "name": "        headers: { 'Content-Type': 'application/json' },",
+      "code": "        headers: { 'Content-Type': 'application/json' },",
+      "countries": [
+        "UK",
+        "Germany",
+        "India",
+        "France",
+        "Australia"
+      ]
+    }
+  ]
+}
